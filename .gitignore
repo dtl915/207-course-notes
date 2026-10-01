@@ -11,6 +11,9 @@ target/
 *.iws
 out/
 
+# Visual Studio Code workspace settings
+.vscode/
+
 # Compiled class file
 *.class
 

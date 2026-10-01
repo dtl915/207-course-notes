@@ -51,8 +51,8 @@ understanding the project structure, and running Java code.
 :: Install Git
 winget install --id Git.Git -e --source winget
 
-:: Install OpenJDK 11 (Eclipse Temurin)
-winget install --id EclipseAdoptium.Temurin.11.JDK -e --source winget
+:: Install OpenJDK 25 (Eclipse Temurin)
+winget install --id EclipseAdoptium.Temurin.25.JDK -e --source winget
 ```
 
   > Note: In the course we will be using Maven primarily through IntelliJ IDEA, so if you have
@@ -82,7 +82,7 @@ wsl --install
 
 ```bash
 sudo apt update
-sudo apt install git openjdk-11-jdk maven
+  sudo apt install git openjdk-25-jdk maven
 ```
 
 #### macOS
@@ -95,8 +95,8 @@ Open your terminal and run:
 # Install Git (if not already installed via Xcode Command Line Tools)
 brew install git
 
-# Install OpenJDK 11 (Eclipse Temurin)
-brew install --cask temurin@11
+# Install OpenJDK 25 (Eclipse Temurin)
+brew install --cask temurin@25
 
 # Install Apache Maven
 brew install maven    
